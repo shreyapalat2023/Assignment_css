@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav start */
+.head-main{
+   background-image:linear-gradient(rgb(130,230,200), rgba(136, 238, 207, 0.1)), url("../img/bg-img.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    /* background:  linear-gradient(rgba(255, 255, 255),rgba(135, 228, 235),rgb(0, 255, 234)),url("/img/bg-img.png") ; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+.navbar .logo{
+    width: 65px;
+}
+.navbar .nav-list .nav-l li{
+    display: inline-block;
+    padding: 20px;
+    margin: 0 20px;
+}
+.navbar .nav-list .nav-l li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #464159;
+    font-weight: 500;
+}
+
+.navbar .icon i{
+   color: #464159;
+   font-size: 20px;
+}
+
+.head-main .content{
+    text-align: center;
+}
+.head-main .content h1{
+    padding: 0000;
+    color: #464159;
+    font-size: 90px;
+}
+.head-main .content p{
+    color: #464159;
+    font-size: 20px;
+    padding: 25px;
+}
+.head-main .content button{
+    background-color: #464159;
+    color: white;
+    padding: 8px 18px;
+    margin: 100px;
+}
+.head-main .carsol{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.head-main .carsol .round{
+    padding: 10px;
+    width: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.head-main .content button{
+    font-size: 20px;
+}
+/* nav-end */

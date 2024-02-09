@@ -1,0 +1,24 @@
+@media only screen and (max-width:500px) {
+    .head-main{
+        background-size: contain;
+    }
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar{
+        justify-content: space-around  ;
+    }
+    .navbar .nav-list .nav-l{
+        display: none;
+    }
+    .head-main .content h1{
+        font-size: 20px;
+    }
+    .head-main .content p br{
+        display: none;
+    }
+    .header-main .content button{
+        margin: 20px;
+    }
+}
